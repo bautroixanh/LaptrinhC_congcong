@@ -1,0 +1,47 @@
+<meta charset="utf-8"></meta>
+<style>
+    *{
+        font-size:19px;
+    }
+</style>
+<div>
+    <input id="texta"/>
+    <button onclick="clicka()">Copy new</button>
+</div>
+<div>
+    <input id="textb"/>
+    <button onclick="clickb()">Copy new</button>
+</div>
+<script>
+    var a=[
+    "Đã tương tác 3 video, xem 2 lần, chất lượng cmt dài, hóng trả ạ"
+    ];
+    var b=[
+    "Làm sao bạn làm được vậy",
+    "chỉ mình cách làm video này đi",
+    "nhìn vào là biết đẹp trai",
+    "thêm nhiều hiệu ứng vào",
+    "mình thích cái này nha",
+    "bạn mua đâu thế?",
+    "mắc cười quá đi",
+    "Làm quen nha bạn",
+    "bạn ở đâu z?",
+    "dùng kwai lâu chưa?",
+    "quá tuyệt vời luôn á",
+    "chỗ mình đang mưa chán quá"
+    ];
+    var ia=-1;
+    var ib=-1;
+function clicka(){
+    // if(ia==a.length-1) return 0;
+    document.getElementById("texta").value=a[0];
+    document.getElementById("texta").select();
+    document.execCommand("copy");
+}
+function clickb(){
+    if(ib==b.length-1) ib=-1;
+    document.getElementById("textb").value=b[++ib];
+    document.getElementById("textb").select();
+    document.execCommand("copy");
+}
+</script>

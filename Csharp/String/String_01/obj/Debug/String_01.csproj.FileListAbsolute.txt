@@ -1,0 +1,7 @@
+E:\C++\Csharp\String\String_01\obj\Debug\String_01.csproj.CoreCompileInputs.cache
+E:\C++\Csharp\String\String_01\bin\Debug\String_01.exe.config
+E:\C++\Csharp\String\String_01\bin\Debug\String_01.exe
+E:\C++\Csharp\String\String_01\bin\Debug\String_01.pdb
+E:\C++\Csharp\String\String_01\obj\Debug\String_01.exe
+E:\C++\Csharp\String\String_01\obj\Debug\String_01.pdb
+E:\C++\Csharp\String\String_01\obj\Debug\String_01.csprojAssemblyReference.cache
